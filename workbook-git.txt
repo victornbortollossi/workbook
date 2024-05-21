@@ -1,8 +1,20 @@
 
 biblioteca no git 
 
-# git init
+git init
 -- Descrição: Inicializa um novo repositório Git local. Este comando cria um novo subdiretório chamado .git que contém todos os arquivos necessários para o repositório.
+
+git log
+-- acessando o log do arquivo
+
+git checkout arquivo.name
+-- Comando para voltar a versao anterior do arquivo, voltando o arquivo para o ultimo status da branch main 
+
+.gitignore
+-- ignorar arquivos para nao subir no git, deve se criar um arquivo .gitignore e dentro do arquivo deve ser descrito os arquivos que nao devem serem enviados para o git
+
+git reset --hard origin/main 
+--forçando o codigo para retornar o ultimo commit presente na main
 
 git clone [url]
 -- Descrição: Faz uma cópia de um repositório Git existente. A URL pode ser o endereço de um repositório remoto.
@@ -47,6 +59,5 @@ Descrição: Redefine a área de staging (mas não o diretório de trabalho) par
 git rm [arquivo]
 Descrição: Remove arquivos do diretório de trabalho e da área de staging.
 
-git config --global user.name "victornbortollossi"
-
-git config --global user.email "victor.bortollossi@gmail.com"
+git config --global user.name usuario
+git config --global user.email usuario@gmail.com
