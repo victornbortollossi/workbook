@@ -80,3 +80,17 @@ mostra todas as stash criadas
 git stash show -p [id]
 mostra as alteracoes que aconteceram com a branch 0 
 
+git gc
+codigo para dar mais performace para o repositorio, não é possivel ver as alterações realizados pelo comando 
+
+gitshortlog
+comando para verificar os commits realizados 
+
+git diff HEAD: nome.arquivo
+comparar dois arquivos, o do git e o que está na sua maquina, mostrar essa diferença
+
+git reflog
+exibe os logs de no maximo durante 30 dias 
+
+
+
