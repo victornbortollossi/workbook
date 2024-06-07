@@ -38,6 +38,12 @@ Descrição: Atualiza a branch local com as últimas mudanças da branch corresp
 git branch [nome-da-branch]
 Descrição: Cria uma nova branch a partir da branch atual.
 
+git branch -b [nome-da-branch]
+criar a branch e ir direto para ela
+
+git branch -d [nome-da-branch]
+deletar a branch
+
 git checkout [nome-da-branch ou commit]
 Descrição: Alterna entre branches ou restaura versões de arquivos no diretório de trabalho.
 
@@ -61,3 +67,16 @@ Descrição: Remove arquivos do diretório de trabalho e da área de staging.
 
 git config --global user.name usuario
 git config --global user.email usuario@gmail.com
+
+git stash 
+retorna ao status atual da branch
+
+git stash apply [numero do retorno do stash]
+escolha qual versao do branch voce quer voltar 
+
+git stash list 
+mostra todas as stash criadas 
+
+git stash show -p [id]
+mostra as alteracoes que aconteceram com a branch 0 
+
